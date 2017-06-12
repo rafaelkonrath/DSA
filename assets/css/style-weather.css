@@ -1,0 +1,77 @@
+/* 
+
+* Author: Rafael Konrath
+
+* Assignment: BScH Mobile Development, Digital Skills Academy
+
+* Student ID: STU-00001214 * Date : 2017/04/09
+
+* Ref: N/A --!>
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+
+/*----------------------------
+	The Body
+-----------------------------*/
+
+body {
+    font-family: 'Lato', Sans-Serif;
+    clear: both;
+    margin: 0 auto;
+    max-width: 534px;
+}
+
+/*----------------------------
+	The UL IMG
+-----------------------------*/
+
+ul img {
+    height: 60%;
+}
+
+/*----------------------------
+	The main container page
+-----------------------------*/
+
+#content {
+    position:absolute;
+    top:40px;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+
+/*----------------------------
+	The Header h1
+-----------------------------*/
+
+#header h1 {
+	font: normal 16px 'Lato', cursive;
+	padding-top: 12px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.1);
+}
+
+/*--------------------------- 
+    Content media view 
+----------------------------*/
+@media all and (min-width:768px) {
+	#content {
+		padding: 15px 15%;
+	}
+    
+    #header h1 {
+	   font: normal 20px 'Lato', cursive;
+    }
+        
+    .ui-content {
+    	padding: 15px 15%;
+    }
+}
+
+
+
+
